@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ngssdemo.sharepoint.com/demo/SitePages/Home.aspx",
+      "customActions": {
+        "1e22818b-f063-4394-b266-78c6b58ab5a2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "termGroupId": "ec92e683-0f72-48dc-9973-ba6379ef3bc5",
+            "termSetId":"816c9c47-a28a-45cf-83f3-e3643cca1402"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://ngssdemo.sharepoint.com/demo/SitePages/Home.aspx",
+      "customActions": {
+        "1e22818b-f063-4394-b266-78c6b58ab5a2": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "termGroupId": "ec92e683-0f72-48dc-9973-ba6379ef3bc5",
+            "termSetId":"816c9c47-a28a-45cf-83f3-e3643cca1402"
+          }
+        }
+      }
+    }
+  }
+}
